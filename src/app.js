@@ -10,7 +10,7 @@ import librosRoutes from './routes/libros-routes.js';
 const app = express();
 
 app.use(cors({
-  origin:'mongodb+srv://admin:jyUm9sF9qY61VEKG@cluster0.vrlfm6b.mongodb.net/?retryWrites=true&w=majority
+  origin:'https://api.render.com/deploy/srv-cjj2cngcfp5c73cpdo6g?key=4s-LoLBs3SM
 ',
   credentials: true
 }));
