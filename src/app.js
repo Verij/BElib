@@ -9,11 +9,7 @@ import librosRoutes from './routes/libros-routes.js';
 
 const app = express();
 
-app.use(cors({
-  origin:'https://api.render.com/deploy/srv-cjj2cngcfp5c73cpdo6g?key=4s-LoLBs3SM
-',
-  credentials: true
-}));
+
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(cookieParser());
