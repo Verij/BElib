@@ -12,7 +12,5 @@ router.post('/login', validateSchema(loginSchema), login);
 router.post("/logout", logout);
 router.get("/auth/verify-token", verifyToken);
 
-//aca primero valida con la autorizacion requerida y luego hace el profile
-router.get("/profile", authRequired, profile);
 
 export default router;
