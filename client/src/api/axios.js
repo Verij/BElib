@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 const instance = axios.create({
-  baseURL:'https://belib.onrender.com/api',
+  baseURL:'https://belib.onrender.com/',
   withCredentials: true
 });
 
