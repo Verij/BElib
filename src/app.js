@@ -10,7 +10,7 @@ import librosRoutes from './routes/libros-routes.js';
 const app = express();
 
 app.use(cors({
-  origin:'https://powerful-pike-shirt.cyclic.app
+  origin:'http://localhost:5173
 ',
   credentials: true
 }));
