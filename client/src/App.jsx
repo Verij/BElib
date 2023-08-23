@@ -5,7 +5,7 @@ import { LibroProvider } from "./context/LibrosContext";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Libros from "./pages/Libros";
-import AgregarLibro from "./pages/agregarLibro";
+import AgregarLibro from "./pages/AgregarLibro";
 import Home from "./pages/Home";
 import ProtectedRoute from "./ProtectedRoute";
 import Navbar from "./components/Navbar";
