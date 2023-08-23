@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background: rgb(43, 40, 40);
+  color:white;
+}
+
+h3 {
+  font-family: 'MedievalSharp', cursive;
+}
