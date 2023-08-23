@@ -10,7 +10,7 @@ import librosRoutes from './routes/libros-routes.js';
 const app = express();
 
 app.use(cors({
-  origin:'https://belib.onrender.com/
+  origin:'mongodb+srv://admin:jyUm9sF9qY61VEKG@cluster0.vrlfm6b.mongodb.net/?retryWrites=true&w=majority
 ',
   credentials: true
 }));
