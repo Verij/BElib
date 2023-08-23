@@ -10,7 +10,8 @@ import librosRoutes from './routes/libros-routes.js';
 const app = express();
 
 app.use(cors({
-  origin:'*'
+  origin:'*',
+  credentials: false
 }));
 
 app.use((req, res, next) => {
