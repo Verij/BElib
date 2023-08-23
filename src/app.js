@@ -9,6 +9,10 @@ import librosRoutes from './routes/libros-routes.js';
 
 const app = express();
 
+app.use(cors({
+    origin: '*'
+}));
+
 app.use((req, res, next) => {
       res.header("Access-Control-Allow-Origin", "https://b-elib-toea.vercel.app/");
       res.header("Access-Control-Allow-Credentials: true");
